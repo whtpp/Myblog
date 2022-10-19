@@ -1,0 +1,38 @@
+@import '~antd/dist/antd.css';
+.App {
+  text-align: center;
+  display: flex;
+}
+a:visited{
+  text-decoration: none;
+  color: rgb(125, 163, 223);
+}
+a:hover{
+  text-decoration: none;
+  color: #ccc;
+}
+.likou{
+  float: left;
+}
+.git{
+  float: left;
+}
+.middle {
+  display: inline-block;
+  flex: 1;
+  background-color: rgb(214, 233, 238);
+  min-height:100vh;
+  box-shadow:10px 5px 3px #ccc;
+}
+.left {
+  display: inline-block;
+  width:20vw;
+  float: left;
+  min-height: 100vh;
+}
+.right {
+  display: inline-block;
+  width:20vw;
+  float: right;
+  min-height: 100vh;
+}
