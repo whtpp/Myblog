@@ -1,7 +1,11 @@
 @import '~antd/dist/antd.css';
+
 .App {
   text-align: center;
   display: flex;
+    /* background:linear-gradient(to bottom, rgba(226, 234, 237, 0.732) , rgb(149, 169, 218)); */
+  background:rgb(236, 236, 236)
+  
 }
 a:visited{
   text-decoration: none;
@@ -20,9 +24,10 @@ a:hover{
 .middle {
   display: inline-block;
   flex: 1;
-  background-color: rgb(214, 233, 238);
+  /* background-color: rgb(225, 230, 232); */
   min-height:100vh;
-  box-shadow:10px 5px 3px #ccc;
+  box-shadow:10px 10px 5px 3px rgb(187, 186, 186);
+
 }
 .left {
   display: inline-block;
